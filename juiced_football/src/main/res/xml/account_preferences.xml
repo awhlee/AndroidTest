@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="Juiced Football Preference Category"
+                android:key="juiced_football_preference_settings" >
+                <CheckBoxPreference
+                        android:key="juiced_football_debug_server_pref"
+                        android:title="Connect to the debug server"
+                        android:summary="Do you want to connect to a test server instead?"
+                        android:defaultValue="false" />
+        </PreferenceCategory>
+</PreferenceScreen>
