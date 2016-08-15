@@ -1,0 +1,3 @@
+[submodule "juiced_football/src/third_party/couchbase-lite-android"]
+	path = juiced_football/src/third_party/couchbase-lite-android
+	url = https://github.com/couchbase/couchbase-lite-android.git
